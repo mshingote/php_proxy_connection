@@ -1,7 +1,7 @@
 <?php
 
     //This function returns data from gievn url using proxy server
-    //$url: Gievn url for which we have to browse data
+    //$url: Given url for which we have to browse data
     //$proxy: Given proxy details {ip:port} from which we have to browse data
     function get_data_after_proxy($url, $proxy) {
         $context_array = array('http'=>array('proxy'=>$proxy, 'request_fullu ri'=>true));
