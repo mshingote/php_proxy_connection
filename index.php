@@ -19,7 +19,7 @@
     }
 
     //Driver code starts here
-    $url = "https://api.ipify.org/?format=text"; //This is url is for example purpose to verify public ip
+    $url = "https://api.ipify.org/?format=text"; //This url is for example purpose to verify public ip
 
     echo "get_data_before_proxy  : ";
     echo get_data_before_proxy($url); //ip before without proxy connection
