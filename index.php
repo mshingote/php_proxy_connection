@@ -22,7 +22,7 @@
     $url = "https://api.ipify.org/?format=text"; //This url is for example purpose to verify public ip
 
     echo "get_data_before_proxy  : ";
-    echo get_data_before_proxy($url); //ip before without proxy connection
+    echo get_data_before_proxy($url); //ip without proxy connection
 
     $proxy = "35.196.26.166:3128";
 
